@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #e0b788;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-form {
+  margin-top: 10px;
+}
+
+.flex {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.flex1 {
+	-prefix-box-flex: 1;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-moz-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+
+.flex2 {
+	-prefix-box-flex: 2;
+	-webkit-box-flex: 2;
+	-webkit-flex: 2;
+	-moz-box-flex: 2;
+	-ms-flex: 2;
+	flex: 2;
+}
+
+.flex-c {
+	-webkit-box-direction: normal;
+	-webkit-box-orient: vertical;
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+
+.flex-a-c{
+	-webkit-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-align-content: flex-start;
+	-ms-flex-line-pack: start;
+	align-content: center;
+}
+
+.flex-j-c {
+	-webkit-box-pack: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+.flex-j-sa {
+	-webkit-box-pack: space-around;
+	-moz-justify-content: space-around;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+}
+
+.flex-j-sb {
+	-webkit-box-pack: space-between;
+	-moz-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+
+
+
+.flex-a-i {
+	-webkit-box-align: center;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+
+.ant-calendar-picker {
+  min-width: inherit!important;
+}
+
+.position-relative {
+	position: relative;
+}
+
+body .red-btn-style {
+	color: red;
+	border-color: red;
+}
+
+body .red-color {
+	color: red;
+}
+
+body .orange-color {
+	color: #E0B788;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.operation-btns .ant-btn {
+	margin-bottom: 5px;
+}
+
+.ant-layout-sider-trigger {
+	display: none;
+}
+
+.ant-table-title {
+	text-align: center;
+}
+
+.button-view button {
+	margin-right: 10px;
+}
+
+.ant-input.small-input {
+	width: 46%;
+}
+
+.right {
+	float: right;
+}
+
+.button-view .right {
+	margin-top: 4px;
+	float: right;
+}
+
+.ant-table-footer {
+	text-align: right;
+}
+
+.ant-table-bordered .ant-table-tbody > tr > td {
+	word-break: break-all;
+}
